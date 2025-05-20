@@ -6,7 +6,7 @@ const isMobileMenuOpen = ref(false);
 import Footer from '~/components/Footer.vue';
 
 const productFeaturesContent = ref(`
-  <h2 class="text-xl font-semibold mb-3">Welcome to HitTechBlog Project!</h2>
+  <h2 class="text-xl font-semibold mb-3">Welcome to HitTechBlogV2 Project!</h2>
 
   <h3 class="text-lg font-medium mb-2">Features:</h3>
   <ul class="list-disc list-inside mb-4">
