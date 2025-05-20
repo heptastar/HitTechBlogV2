@@ -1,16 +1,16 @@
 JWT_SECRET=JWT_SECRET1718
 
-BLOG_NAME="HitTechBlog"
-HERO_TITLE="WELCOME TO HitTechBlog!"
-HERO_CONTENT="Totally FREE deployed independent blog cms system based on Cloudflare Pages and Cloudflare D1 database."
+BLOG_NAME="HitTechBlogV2"
+HERO_TITLE="WELCOME TO HitTechBlogV2!"
+HERO_CONTENT="A Cloudflare D1 and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Note-taking and Blog System, supporting both Image and Rich-text"
 LINK1LABEL="Heptastar Intelligent Tech@www.hit2023.com"
-LINK2LABEL="Cloudflare Pages@www.pages.cloudflare.com"
+LINK2LABEL="HitTechBlogV2@github.com/heptastar/HitTechBlogV2"
 LINK3LABEL="Nuxt@github.com/nuxt/nuxt"
 LINK4LABEL="Tiptap@github.com/ueberdosis/tiptap"
 LINK5LABEL="Tailwindcss@github.com/tailwindlabs/tailwindcss"
 
 LINK1URL="https://hit2023.com/"
-LINK2URL="https://pages.cloudflare.com/"
+LINK2URL="https://github.com/heptastar/HitTechBlogV2"
 LINK3URL="https://github.com/nuxt/nuxt"
 LINK4URL="https://github.com/ueberdosis/tiptap"
 LINK5URL="https://github.com/tailwindlabs/tailwindcss"
