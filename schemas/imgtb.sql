@@ -1,0 +1,8 @@
+
+
+CREATE TABLE imgtb (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    imagev TEXT,
+    imagename TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

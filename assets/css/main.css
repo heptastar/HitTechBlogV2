@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.editor-content h1 {
+  @apply text-2xl font-bold my-4;
+}
+
+.editor-content h2 {
+  @apply text-xl font-bold my-3;
+}
+
+.editor-content h3 {
+  @apply text-lg font-bold my-2;
+}
+
+.editor-content ul {
+  @apply list-disc pl-6 my-2;
+}
+
+.editor-content ol {
+  @apply list-decimal pl-6 my-2;
+}
+
+.editor-content li {
+  @apply mb-1;
+}
+
+.editor-content pre {
+  @apply bg-gray-100 p-4 rounded-md overflow-x-auto my-4;
+}
+
+.editor-content p {
+  @apply my-2;
+}
+
+.editor-content code {
+  @apply font-mono text-sm;
+}
+
+.editor-content .katex {
+  @apply overflow-x-auto;
+}
+
+.editor-content .katex-display {
+  @apply my-4 overflow-x-auto;
+}
