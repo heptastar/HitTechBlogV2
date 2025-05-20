@@ -1,6 +1,6 @@
-# HitTechBlogV2: A Deploy-and-Maintain-Cost-Free Note-taking and Blog System based on Cloudflare D1 and Cloudflare Pages
+# HitTechBlogV2: A Cloudflare D1 and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Note-taking and Blog System  
 ## 0. Demo
-https://htb-blogd1pages-250515a1122-js-nu-cfpages.pages.dev/
+[https://htb-blogd1imgpages-250520a1143-js-nu-cfpages.pages.dev/](https://htb-blogd1imgpages-250520a1143-js-nu-cfpages.pages.dev/)
 - admin account: admin@qq.com
 - password: 122
 
@@ -25,7 +25,7 @@ Welcome to HitTechBlog Project!
 - Admin features (userrank == 3): registered users' retrieving, updating and deleting and posts' creating, retrieving, updating and deleting.
 - Use Tiptap rich text editor, supporting LaTex math formula based on Katex, code block, headings from H1 to H3, ordered list, unordered list, bold and italic.
 - Personal note-taking and public posts, both modes are supported.
-- This blog cms system is pure text based and the Cloudflare R2 based image displaying is not supported therefore user does not need to bind any credit card for the Cloudflare's account, i.e. ALWAYS ZERO COST.
+- This blog cms system is both text and image supported and both text and image are stored in Cloudflare D1.
 ## 2. Usage (use the following steps to install and use)
 - go to https://www.cloudflare.com/ to register an account for using free Cloudflare Pages and D1 database
 ### 2.0 Download
