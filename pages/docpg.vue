@@ -26,7 +26,7 @@ const productFeaturesContent = ref(`
     <li class="mb-1">Admin features (userrank == 3): registered users' retrieving, updating and deleting and posts' creating, retrieving, updating and deleting.</li>
     <li class="mb-1">Use Tiptap rich text editor, supporting LaTex math formula based on Katex, code block, headings from H1 to H3, ordered list, unordered list, bold and italic.</li>
     <li class="mb-1">Personal note-taking and public posts, both modes are supported.</li>
-    <li class="mb-1">This blog cms system is pure text based and the Cloudflare R2 based image displaying is not supported therefore user does not need to bind any credit card for the Cloudflare's account, i.e. ALWAYS ZERO COST.</li>
+    <li class="mb-1">This blog cms system is supporting both text and image.</li>
   </ul>
 
   <p class="mb-4">We use modern technologies like Vue 3, Nuxt 3, and Tailwind CSS to provide a fast and responsive experience.</p>
