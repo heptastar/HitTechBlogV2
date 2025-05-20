@@ -156,7 +156,7 @@
         <div class="md:col-span-2">
           <h2 class="text-2xl font-semibold mb-4">Latest Posts</h2>
           <div v-if="loading" class="text-center py-8">
-            <p>Loading posts ...</p>
+            <p>Loading posts...</p>
           </div>
           <div v-else-if="error" class="text-center py-8 text-red-500">
             <p>Error loading posts: {{ error }}</p>
