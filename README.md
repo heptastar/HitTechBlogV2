@@ -1,4 +1,4 @@
-# HitTechBlogV2 - A ZERO COST INDEPENDENT blog cms system based on Cloudflare D1 and Cloudflare Pages
+# HitTechBlogV2: A Deploy-and-Maintain-Cost-Free Note-taking and Blog System based on Cloudflare D1 and Cloudflare Pages
 ## 0. Demo
 https://htb-blogd1pages-250515a1122-js-nu-cfpages.pages.dev/
 - admin account: admin@qq.com
