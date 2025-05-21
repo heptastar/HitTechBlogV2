@@ -1,4 +1,4 @@
-# 🌐HitTechBlogV2: A Cloudflare D1 and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Cloud-based Note-taking and Blog System, supporting both Image and Rich-text, responsive for PC and Mobile Phone
+# 🌐HitTechBlogV2: A Cloudflare D1 and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Cloud-based Note-taking and Blog System, supporting both Image and Rich-text, responsive for PC and Mobile Phone, Nuxt3 Full-stack Project
 ## 0. Demo
 [https://main.htb-blogd1imgpages-250520a1143-js-nu-cfpages.pages.dev/](https://main.htb-blogd1imgpages-250520a1143-js-nu-cfpages.pages.dev/)
 - admin account: admin@qq.com
