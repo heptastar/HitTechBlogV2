@@ -8,7 +8,7 @@
  ![demo gallery](./demoimg2.png)
  ![demo gallery](./demoimg3.png)
 ## 1. Introduction
-Welcome to HitTechBlog Project!
+Welcome to HitTechBlogV2 Project!
 
 ### 1.1 Features:
 - TOTALLY ZERO-COST-DEPLOY-AND-MAINTAIN note-taking and blog system which can be deployed and go online in seconds.
@@ -169,8 +169,8 @@ npm run dev
 - customize the blog as you want by modifying variables' values in .env file
 ~~~
 
-BLOG_NAME="HitTechBlog"
-HERO_TITLE="WELCOME TO HitTechBlog!"
+BLOG_NAME="HitTechBlogV2"
+HERO_TITLE="WELCOME TO HitTechBlogV2!"
 HERO_CONTENT="Totally FREE deployed independent blog cms system based on Cloudflare Pages and Cloudflare D1 database."
 LINK1LABEL="Heptastar Intelligent Tech@www.hit2023.com"
 LINK2LABEL="Cloudflare Pages@www.pages.cloudflare.com"
@@ -220,7 +220,7 @@ npm run deploy
 
 
 # 3. Contact
-- HitTechBlog is continuously dev and maintained by [Heptastar Intelligent Tech](https://www.hit2023.com). Any questions or suggestions please contact us: [Heptastar Intelligent Tech](https://www.hit2023.com)
+- HitTechBlogV2 is continuously dev and maintained by [Heptastar Intelligent Tech](https://www.hit2023.com). Any questions or suggestions please contact us: [Heptastar Intelligent Tech](https://www.hit2023.com)
 - Github addr: https://github.com/heptastar/HitTechBlogV2
   
 
