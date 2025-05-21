@@ -26,7 +26,7 @@ SOFTWARE.</p>
 
 <p class="mb-2">---</p>
 
-<p class="mb-2">Note: This license applies to the current version of [HitTechBlog]. The copyright holder reserves the right to release future versions of the Software under different license terms.</p>`;
+<p class="mb-2">Note: This license applies to the current version of [HitTechBlogV2]. The copyright holder reserves the right to release future versions of the Software under different license terms.</p>`;
 
 const isMobileMenuOpen = ref(false);
 </script>
@@ -36,7 +36,7 @@ const isMobileMenuOpen = ref(false);
     <nav class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-4">
       <div class="container mx-auto flex justify-between items-center">
         <div class="flex items-center">
-          <a href="/" class="text-xl font-bold">HitTechBlog</a>
+          <a href="/" class="text-xl font-bold">HitTechBlogV2</a>
         </div>
         <div class="md:hidden">
           <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="text-white focus:outline-none">

@@ -3,7 +3,7 @@
     <nav class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-4">
       <div class="container mx-auto flex justify-between items-center">
         <div class="flex items-center">
-          <a href="/" class="text-xl font-bold">HitTechBlog</a>
+          <a href="/" class="text-xl font-bold">HitTechBlogV2</a>
         </div>
         <div class="flex items-center">
           <ul class="flex space-x-4 mr-6">
@@ -35,7 +35,7 @@
       <!-- cookie test -->
 
       <div class="max-w-md mx-auto bg-white p-8 border border-gray-200 rounded-lg shadow-md">
-        <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">Login to HitTechBlog</h1>
+        <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">Login to HitTechBlogV2</h1>
         
         <form @submit.prevent="handleLogin">
           <div class="mb-4">

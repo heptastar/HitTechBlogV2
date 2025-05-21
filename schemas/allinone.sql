@@ -51,3 +51,8 @@ npx wrangler d1 execute htbblogd1imgpgdb250520 --command "CREATE TRIGGER IF NOT 
 npx wrangler d1 execute htbblogd1imgpgdb250520 --remote --command "CREATE TRIGGER IF NOT EXISTS posttb_au AFTER UPDATE ON posttb BEGIN DELETE FROM posttb_fts WHERE rowid = old.id;INSERT INTO posttb_fts(rowid, title, content, category) VALUES (new.id, new.title, new.content, new.category);END;"
 
 npx wrangler d1 execute htbblogd1imgpgdb250520 --command "CREATE TRIGGER IF NOT EXISTS posttb_au AFTER UPDATE ON posttb BEGIN DELETE FROM posttb_fts WHERE rowid = old.id;INSERT INTO posttb_fts(rowid, title, content, category) VALUES (new.id, new.title, new.content, new.category);END;"
+
+
+-- create table for image in remote and local db
+npx wrangler d1 execute htbblogd1imgpgdb250520 --remote  --file schemas/imgtb.sql
+npx wrangler d1 execute htbblogd1imgpgdb250520 --file schemas/imgtb.sql
