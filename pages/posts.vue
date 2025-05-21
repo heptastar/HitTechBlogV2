@@ -16,7 +16,7 @@
           <ul class="flex space-x-4 mr-6">
             <li>
               <button 
-  @click="$router.push('/')" 
+  @click="router.push('/')" 
   class="px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg shadow-md transition-colors"
 >
   Home
@@ -32,7 +32,7 @@
             </li>
             <li>
               <button 
-                @click="showCreateModal = true"
+                @click="router.push('/createpg')"
                 class="px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg shadow-md transition-colors"
               >
                 Create Post
@@ -47,7 +47,7 @@
           <ul class="flex flex-col space-y-2 mt-4">
             <li>
               <button 
-                @click="$router.push('/')" 
+                @click="router.push('/')" 
                 class="w-full px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg shadow-md transition-colors"
               >
                 Home
@@ -63,7 +63,7 @@
             </li>
             <li>
               <button 
-                @click="showCreateModal = true"
+                @click="router.push('/createpg')"
                 class="w-full px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg shadow-md transition-colors"
               >
                 Create Post
@@ -109,7 +109,7 @@
                     Update
                   </button>
                   <button 
-                    @click="$router.push(`/opencardonpostspage?id=${post.id}`)"
+                    @click="router.push(`/opencardonpostspage?id=${post.id}`)"
                     class="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600 mr-2 flex items-center justify-center space-x-1"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -276,6 +276,9 @@ definePageMeta({
 import { ref } from 'vue';
 import { decodeJwt } from 'jose';
 import TiptapEditor from '~/components/TiptapEditor.vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const isMobileMenuOpen = ref(false);
 
@@ -365,11 +368,8 @@ const updateSuccess = ref(false);
 const createSuccess = ref(false);
 
 const updatePost = (post: any) => {
-  showUpdateModal.value = true;
-  // Use nextTick to ensure the modal and QuillEditor are mounted before setting content
-  nextTick(() => {
-    currentPost.value = { ...post };
-  });
+  // Navigate to the update page instead of showing the modal
+  router.push({ path: '/updatepostpg', query: { id: post.id } });
 };
 
 const handleUpdate = async () => {

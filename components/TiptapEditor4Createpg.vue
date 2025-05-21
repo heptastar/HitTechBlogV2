@@ -94,8 +94,8 @@
     </div>
 
     <!-- Image Upload Modal -->
-    <div v-if="showImageModal" class="fixed top-0 left-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center z-50">
-      <div class="modal-content bg-white w-full h-full p-4">
+    <div v-if="showImageModal" class="fixed top-0 left-0 p-4 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+      <div class="modal-content bg-white p-6 rounded shadow-lg">
         <h3 class="text-lg font-bold mb-4">Upload Image</h3>
         <input type="file" ref="fileInputRef" @change="handleFileSelect" accept="image/*" class="hidden" />
         <div v-if="uploadError" class="text-red-500 mb-4">{{ uploadError }}</div>
