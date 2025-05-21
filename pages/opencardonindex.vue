@@ -52,8 +52,8 @@
       </div>
     </nav>
 
-    <main class="container mx-auto px-4 py-8">
-      <div class="max-w-3xl mx-auto">
+    <main class="px-4 py-8">
+      <div class="mx-auto">
         <h1 class="text-3xl font-bold mb-6">{{ post.title }}</h1>
         <div class="flex items-center mb-6 text-sm text-gray-600">
           <span class="mr-4">By: {{ post.author_id>0?"admin":"anonymous" }}</span>
