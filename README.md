@@ -1,6 +1,6 @@
 # 🌐 HitTechBlogV2: A Cloudflare D1 Database and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Serverless-based Note-taking and Blog System, supporting both Image and Rich-text, responsive for PC and Mobile Phone, Nuxt3 Full-stack Project with Tailwindcss, NO USE of Cloudflare Workers ONLY Using Cloudflare Pages and D1 Database
 ## 0. Demo
-[https://www.hittech.online/](https://www.hittech.online/)
+[https://www.hittech.online](https://www.hittech.online)
 - admin account: admin@qq.com
 - password: 122
 - 中文介绍和安装教程参见知乎: [免费云笔记博客系统 HitTechBlogV2: 一个基于Cloudflare D1和Cloudflare Pages的零成本部署服务和运维的云笔记和博客系统（独立部署教程）](https://zhuanlan.zhihu.com/p/1907909003209586056)
