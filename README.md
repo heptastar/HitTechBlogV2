@@ -139,8 +139,9 @@ npm run preview
 ~~~
 
 #### 2.3.4 formal deploy the project to Cloudflare Pages
-- use the command
+- use the command to login then deploy which will upload all needed files to remote 
 ~~~
+npx wrangler login
 npm run deploy
 ~~~
 - it may encounter Cloudflare login, then use your registered account to finish login
