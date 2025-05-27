@@ -93,7 +93,7 @@ npx wrangler d1 execute htbblogd1imgpgdb250527 --file schemas/allinone2.sql
 npm run dev
 ~~~
 
-#### 2.3.1 add an admin account
+#### 2.3.1 add an admin account in local (OPTIONAL)
 - go to server\api\user\register.ts
 - modify line 27
 ~~~
@@ -132,7 +132,7 @@ LINK4URL="https://github.com/ueberdosis/tiptap"
 LINK5URL="https://github.com/tailwindlabs/tailwindcss"
 ~~~
 
-#### 2.3.3 preview before deploy to remote
+#### 2.3.3 preview before deploy to remote (OPTIONAL)
 - check if the blog fulfill your expectation
 ~~~
 npm run preview
@@ -155,14 +155,9 @@ npm run deploy
 ~~~
 - then go to browser to open url:https://YourSpecificAssignedName.pags.dev, it may cost a little while that the remote can finish the first time deploy.
 
-#### 2.3.5 set admin account with setting userrank from 0 to 3 after deploy
+#### 2.3.5 set admin account with setting userrank from 0 to 3 after deploy (REQUIRED!!!)
 - open url https://YourSpecificAssignedName.pags.dev then click login button then click register link to register admin account, e.g. admin@qq.com
-- sign in on cloudflare
-- side-bar goto click Store and Database
-- D1 SQL Database
-- click htbblogd1imgpgdb250520 (this is the previously created D1 database)
-- choose tab of table
-- click table named users (which is created by previous command and used for store user registeration)
+- sign in on cloudflare-> side-bar-> Storage & Databases-> D1 SQL Database-> htbblogd1imgpgdb250520 (previously created D1 database)-> tables-> users (created by previous command and used for store user registeration)
 - check the admin@qq.com then go to update by clicking the button in the tail of the row, to change the userrank from 0 to 3 which is the admin's rank.
 - BY HERE ALL DONE YOU CAN ENJOY TO POST YOUR MASTER-WORK.
 
