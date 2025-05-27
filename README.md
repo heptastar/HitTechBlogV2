@@ -1,4 +1,4 @@
-# 🌐 HitTechBlogV2: A Cloudflare D1 Database and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Serverless-based Note-taking and Blog System, supporting both Image and Rich-text, responsive for PC and Mobile Phone, Nuxt3 Full-stack Project with Tailwindcss, NO USE of Cloudflare Workers ONLY Using Cloudflare Pages and D1 Database, ONLY 5 Lines Code Needed to Production-Deploy
+# 🌐 HitTechBlogV2: A Cloudflare D1 Database and Cloudflare Pages based Deploy-and-Maintain-Cost-Free Serverless-based Note-taking and Blog System, supporting both Image and Rich-text, responsive for PC and Mobile Phone, Nuxt3 Full-stack Project with Tailwindcss, NO USE of Cloudflare Workers ONLY Using Cloudflare Pages and D1 Database, ONLY 5 LINES CODE NEEDED to Production-Deploy
 ## 0. Demo
 [https://www.hittech.online](https://www.hittech.online)
 - admin account: admin@qq.com
