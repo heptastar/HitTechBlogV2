@@ -30,7 +30,7 @@
 ## 2. Usage (use the following steps to install and use)
 - go to https://www.cloudflare.com/ to register an account for using free Cloudflare Pages and D1 database
 ### 2.0 Download
-- download or clone the project to local windows machine.
+- download or clone the project to local windows or macbook machine.
 ### 2.1 Install
 - change the name of envexample.txt under root folder of the project to .env
 - under the root folder of the project, run the following command to install needed packages listed in package.json
