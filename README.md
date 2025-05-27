@@ -3,7 +3,7 @@
 [https://www.hittech.online](https://www.hittech.online)
 - admin account: admin@qq.com
 - password: 122
-- 中文介绍和安装教程参见知乎: [免费云笔记博客系统 HitTechBlogV2: 一个基于Cloudflare D1和Cloudflare Pages的零成本部署服务和运维的云笔记和博客系统（独立部署教程）](https://zhuanlan.zhihu.com/p/1907909003209586056)
+- [中文教程](https://zhuanlan.zhihu.com/p/1907909003209586056)
 
  ![demo gallery](./demoimg.png)
  ![demo gallery](./demoimg2.png)
