@@ -1,6 +1,6 @@
 -- all tables and indices can be done with command individually for remote and local: 
--- npx wrangler d1 execute htbblogd1imgpgdb250527 --remote --file schemas/allinone.sql
--- npx wrangler d1 execute htbblogd1imgpgdb250527 --file schemas/allinone.sql
+-- npx wrangler d1 execute htbblogd1imgpgdb250527 --remote --file schemas/allinone2.sql
+-- npx wrangler d1 execute htbblogd1imgpgdb250527 --file schemas/allinone2.sql
 
 -- ---------------------------------------  vvvv users table vvvv 
 
