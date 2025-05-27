@@ -3,7 +3,7 @@
 [https://www.hittech.online](https://www.hittech.online)
 - admin account: admin@qq.com
 - password: 122
-- [中文教程](https://zhuanlan.zhihu.com/p/1907909003209586056)
+- [中文教程，五行代码即可部署](https://zhuanlan.zhihu.com/p/1907909003209586056)
 
  ![demo gallery](./demoimg.png)
  ![demo gallery](./demoimg2.png)
